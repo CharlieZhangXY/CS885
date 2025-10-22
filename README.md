@@ -161,7 +161,8 @@
 ```
 
 ## Assignment1 Part2 Q-learning
-![image](https://hackmd.io/_uploads/HJsl2fUAgx.png)
+<img width="3568" height="2065" alt="qlearning_results" src="https://github.com/user-attachments/assets/b63e3671-c31d-4615-843f-3547573fb278" />
+
 **實驗設置:**
 * 初始狀態: State 0
 * 初始 Q 函數: 所有狀態-動作對的值為 0
@@ -245,7 +246,8 @@
 
 ## Assignment1 Part3 Deep Q-Network (DQN)
 ### Question1：Target Network
-![image](https://hackmd.io/_uploads/SkBx18IAeg.png)
+<img width="3600" height="1800" alt="experiment1_target_network" src="https://github.com/user-attachments/assets/8d0955da-bb6e-441f-b4b4-647745b08839" />
+
 ```
 Frequency = 1（每個 episode 更新）
 預期現象：
@@ -330,7 +332,8 @@ $θ_{t+1} = θ_t + α ∇_θ [r + γ max_a' Q(s', a'; θ⁻) - Q(s, a; θ_t)]²$
   θ⁻ 定期更新
 ```
 ### Question2：Mini-Batch Size
-![image](https://hackmd.io/_uploads/r1XbfLLCxe.png)
+<img width="3600" height="1800" alt="experiment2_minibatch" src="https://github.com/user-attachments/assets/1475a0b3-fa4c-485d-9c58-26154fdadde9" />
+
 ```
 Batch Size = 1（單樣本更新）
 預期現象：
