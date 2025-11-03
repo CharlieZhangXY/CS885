@@ -2,7 +2,7 @@
 ## Assignment2 Part1
 ### Maze Problem Experiment
 **實驗結果：**
-![image](https://hackmd.io/_uploads/rJRDcz8JWe.png)
+<img width="3572" height="2061" alt="image" src="https://github.com/user-attachments/assets/ec413b88-c416-40a0-a4cf-ebb7d6773eb1" />
 1. 初期探索階段 (Episodes 0-50):
 * 平均累積獎勵: 約 -150 到 -50
 * 獎勵波動較大，標準差較高
