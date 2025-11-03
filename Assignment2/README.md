@@ -344,9 +344,9 @@ Mountain Car 需要：
 **圖表說明**
 X軸: Episode 數量
 Y軸: 累積獎勵（平均最近 25 個 episodes）
-![image](https://hackmd.io/_uploads/ryXGC48yWl.png)
-![image](https://hackmd.io/_uploads/Hk_MA4Ly-e.png)
-![image](https://hackmd.io/_uploads/B12MA4LkZe.png)
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/c34baa9d-32ed-4c78-833b-695c1f88641e" />
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/504e681f-a186-46bb-99a0-ced0c56891a7" />
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/60357a68-0a40-4bef-9eaa-21240c9fb219" />
 
 **Reward Function 差異**
 
