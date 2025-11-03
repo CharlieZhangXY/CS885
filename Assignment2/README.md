@@ -83,7 +83,7 @@
 
 ### Bandit Problem Experiment
 **實驗結果：**
-![image](https://hackmd.io/_uploads/B1Dn4mU1Wl.png)
+<img width="3571" height="2061" alt="image" src="https://github.com/user-attachments/assets/17d92231-2776-44bb-93b7-659eade88eb1" />
 1. Thompson Sampling (藍色曲線)
 
 **表現：**
