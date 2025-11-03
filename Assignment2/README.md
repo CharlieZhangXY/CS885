@@ -191,9 +191,9 @@ $累積遺憾 (Cumulative Regret) = Σ(最優獎勵 - 實際獎勵)$
 圖表說明
 * X軸: Episode 數量（REINFORCE 和 REINFORCE with Baseline: 0-800，PPO: 0-150）
 * Y軸: 累積獎勵（平均最近 25 個 episodes）
-![image](https://hackmd.io/_uploads/HyXXNE8JWe.png)
-![image](https://hackmd.io/_uploads/ryJVENIyZe.png)
-![image](https://hackmd.io/_uploads/B1u4NNLJbx.png)
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/bf861909-cc29-4638-a435-9a2dc19b832a" />
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/dee7159d-edf8-4091-91e7-a8b9a4bba6eb" />
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/997f03f9-41d2-4e67-995f-244df9e59947" />
 
 1. REINFORCE
 * 學習曲線波動較大，variance 高
