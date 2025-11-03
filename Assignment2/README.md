@@ -231,7 +231,7 @@ $累積遺憾 (Cumulative Regret) = Σ(最優獎勵 - 實際獎勵)$
 ```
 POLICY_TRAIN_ITERS = 10
 ```
-![image](https://hackmd.io/_uploads/Hy3GqV8k-e.png)
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/fe4a2f09-2500-4eaa-a877-42bb1564927d" />
 
 1. 初期（前 100-200 episodes）:
 * 學習速度可能稍微加快
@@ -280,9 +280,9 @@ POLICY_TRAIN_ITERS = 10
 **圖表說明**
 X軸: Episode 數量（同上）
 Y軸: 累積獎勵（平均最近 25 個 episodes）
-![image](https://hackmd.io/_uploads/SkEE24Ik-x.png)
-![image](https://hackmd.io/_uploads/ByjVnEU1Ze.png)
-![image](https://hackmd.io/_uploads/r1fr2VIkZl.png)
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/d08208f4-01ab-4ae3-b724-871cb669266f" />
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/1cb9ef9e-76c7-4a31-88bc-27f7a05d84ac" />
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/9085f97d-6c97-4fb1-9c22-19f11b76faa4" />
 
 * 所有三個演算法在 Mountain Car 上的表現都會顯著變差
 * 學習曲線可能長期停留在 -200 左右（接近最差情況）
