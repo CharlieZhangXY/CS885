@@ -116,7 +116,7 @@ def update_networks(epi, buf, Q, Qt, OPT):
 * 使用梯度裁剪防止梯度爆炸
 
 **DRQN 實驗結果**
-![DRQN_result](https://hackmd.io/_uploads/H11-caObWe.png)
+<img width="640" height="480" alt="DRQN_result" src="https://github.com/user-attachments/assets/71756489-5b22-44ea-b41d-a63de126bfd5" />
 其中 x 軸為回合數（2000 個回合），y 軸為獲得的獎勵。
 
 學習曲線特徵：
