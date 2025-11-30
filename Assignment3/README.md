@@ -1,4 +1,4 @@
-# CS885 Assignment2
+# CS885 Assignment3
 ## Assignment3 Part1 Partially Observable RL
 **環境設定**
 * 完整狀態空間：4 維 (位置 x, 速度 ẋ, 角度 θ, 角速度 θ̇)
