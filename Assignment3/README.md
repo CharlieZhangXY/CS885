@@ -33,7 +33,7 @@
 Input (2) → Linear(512) → ReLU → Linear(512) → ReLU → Linear(2) → Q值
 
 **DQN 性能表現**
-![image](https://hackmd.io/_uploads/SkYldTu-Ze.png)
+<img width="640" height="480" alt="DQN_result" src="https://github.com/user-attachments/assets/b1b7980c-00cb-4230-aedc-6d9c4d0bdc9d" />
 其中 x 軸為回合數（2000 個回合），y 軸為獲得的獎勵。
 
 **DQN 的主要限制：**
