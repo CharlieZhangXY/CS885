@@ -33,7 +33,9 @@
 Input (2) → Linear(512) → ReLU → Linear(512) → ReLU → Linear(2) → Q值
 
 **DQN 性能表現**
+
 <img width="640" height="480" alt="DQN_result" src="https://github.com/user-attachments/assets/b1b7980c-00cb-4230-aedc-6d9c4d0bdc9d" />
+
 其中 x 軸為回合數（2000 個回合），y 軸為獲得的獎勵。
 
 **DQN 的主要限制：**
@@ -116,7 +118,9 @@ def update_networks(epi, buf, Q, Qt, OPT):
 * 使用梯度裁剪防止梯度爆炸
 
 **DRQN 實驗結果**
+
 <img width="640" height="480" alt="DRQN_result" src="https://github.com/user-attachments/assets/71756489-5b22-44ea-b41d-a63de126bfd5" />
+
 其中 x 軸為回合數（2000 個回合），y 軸為獲得的獎勵。
 
 學習曲線特徵：
@@ -247,7 +251,9 @@ def update_networks(epi, buf, Q, Qt, OPT):
 * 無法區分風險和不確定性
 
 **DQN 結果**
-![image](https://hackmd.io/_uploads/H1xSt6t-We.png)
+
+<img width="640" height="480" alt="DQN_result" src="https://github.com/user-attachments/assets/ac15fc2b-3d52-4f36-a522-ba80a139cec9" />
+
 其中 x 軸表示回合數（至少 200 個回合），y 軸表示每個回合獲得的獎勵。
 * 初期（0-100 episodes）：快速學習基本策略
 * 中期（100-300 episodes）：性能穩步提升
@@ -372,7 +378,9 @@ m[u] += probs_next_a * (b - l)
 loss = -(m * log_probs).sum(dim=1).mean()
 ```
 **實驗結果**
-![image](https://hackmd.io/_uploads/SJgoj6tWWe.png)
+
+<img width="640" height="480" alt="C51_result" src="https://github.com/user-attachments/assets/15899e25-92c9-4c32-be74-5b9cd4732460" />
+
 其中 x 軸表示回合數（至少 200 個回合），y 軸表示每個回合獲得的獎勵。
 * 初期學習差不多但
 * 中期開始超越 DQN
